@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View,TouchableOpacity } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons'
-
+import {RkButton} from 'react-native-ui-kitten';
 
 import { createSwitchNavigator, createStackNavigator,createDrawerNavigator,createBottomTabNavigator } from 'react-navigation'
 import AuthLoadingScreen from './screens/AuthLoadingScreen'

@@ -4,13 +4,15 @@ import {
     Text,
     StyleSheet
 } from "react-native";
+import {RkAvoidKeyboard,RkTextInput} from 'react-native-ui-kitten'
+
 
 class CircleScreen extends Component {
     render() {
         return (
-            <View style={styles.container}>
-            <Text>CircleScreen</Text>
-            </View>
+            <RkAvoidKeyboard>
+            <RkTextInput/>
+          </RkAvoidKeyboard>
         );
     }
 }
